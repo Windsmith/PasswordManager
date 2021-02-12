@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 3,
+    "name": "OS Password Manager",
+    "short_name": "PassMan",
+    "version": "development",
+  
+    "action": {
+        "default_icon":{}, 
+        "default_title": "Want your passwords? ;)",
+        "default_popup": ""
+    },
+    "description": "An open source password manager that suites all your needs!",
+    "icons": {}
+
+}
+  
