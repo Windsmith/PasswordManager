@@ -1,8 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="tailwind.css">
+        <link rel="stylesheet" href="tailwindoutput.css">
     </head>
-    <body>
+    <body class="space-y-2">
+        <div class="flex flex-row flex-wrap flex-1">
+            <a class="flex-auto text-center border-2 border-black object-left p-2 px-5 text-lg"> Add </a>
+            <a class="flex-auto text-center border-2 border-black object-center p-2 text-lg"> Retrieve </a>
+            <a class="flex-auto text-center border-2 border-black object-right p-2 text-lg"> Options </a>
+
+        </div>
+    
+        <input type="text" id="search" name="search" placeholder="search for the password" class="border-2 border-black text-center text-lg">
+
+        <div class="grid grid-cols-3 gap-2 justify-items-center">
+           <!-- <p class="text-center text-sm text-gray-400 italic">You currently have no passwords stored</p> -->
+            <div>
+                <button class="text-center">Github</button>
+            </div>
+
+            <div>
+                <button class="text-center">Gmail</button>
+            </div>
+
+            <div>
+                <button class="text-center">ArmorGames</button>
+            </div>
+
+            <div>
+                <button class="text-center">Github</button>
+            </div>
+
+            <div>
+                <button class="text-center">Gmail</button>
+            </div>
+
+            <div>
+                <button class="text-center">ArmorGames</button>
+            </div>
+
+        </div>
     </body>
 </html>
