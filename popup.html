@@ -3,42 +3,26 @@
     <head>
         <link rel="stylesheet" href="tailwindoutput.css">
     </head>
-    <body class="space-y-2">
+    <body class="space-y-4">
         <div class="flex flex-row flex-wrap flex-1">
             <a class="flex-auto text-center border-2 border-black object-left p-2 px-5 text-lg"> Add </a>
             <a class="flex-auto text-center border-2 border-black object-center p-2 text-lg"> Retrieve </a>
             <a class="flex-auto text-center border-2 border-black object-right p-2 text-lg"> Options </a>
-
         </div>
     
-        <input type="text" id="search" name="search" placeholder="search for the password" class="border-2 border-black text-center text-lg">
+        <input type="text" id="search" name="search" placeholder="search for the password" class="border-2 border-black text-center text-lg m-12">
 
-        <div class="grid grid-cols-3 gap-2 justify-items-center">
-           <!-- <p class="text-center text-sm text-gray-400 italic">You currently have no passwords stored</p> -->
+        <div class="grid grid-cols-3 gap-y-4 gap-x-20 justify-items-center min-h-60 max-h-60 w-96 overflow-y-scroll border-2 border-black">
+            <!-- <p class="text-center text-sm text-gray-400 italic">You currently have no passwords stored</p> -->
             <div>
-                <button class="text-center">Github</button>
+                <button class="text-center border-2 border-black">Github</button>
             </div>
-
             <div>
-                <button class="text-center">Gmail</button>
+                <button class="text-center border-2 border-black">Gmail</button>
             </div>
-
             <div>
-                <button class="text-center">ArmorGames</button>
+                <button class="text-center border-2 border-black">Armor<br>Games</button>
             </div>
-
-            <div>
-                <button class="text-center">Github</button>
-            </div>
-
-            <div>
-                <button class="text-center">Gmail</button>
-            </div>
-
-            <div>
-                <button class="text-center">ArmorGames</button>
-            </div>
-
         </div>
     </body>
 </html>
