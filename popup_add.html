@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tailwindoutput.css">
+    </head>
+    <body class="min-h-60 max-h-60 w-96">
+        <div class="flex flex-row flex-wrap flex-1">
+            <a class="flex-auto text-center object-left p-4 px-8 text-lg border-b-2 rounded-md"> Add </a>
+            <a class="flex-auto text-center text-white object-center p-4 text-lg bg-red-400"> Retrieve </a>
+            <a class="flex-auto text-center object-right p-4 text-lg border-b-2 rounded-md"> Options </a>
+        </div>
+
+        <form>
+
+            <label>Enter Username/Email: </label>
+            <input type="text">
+            <div>
+                <label>Enter Password: </label>
+                <input type="text">
+                <label>Show Password</label>
+                <input type="checkbox">
+                <label></label>
+                <button>Generate Password</button>
+            </div>
+            <input list="colors">
+            <datalist id="colors">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+            </datalist>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
