@@ -1,0 +1,26 @@
+{
+  "name": "passwordmanager",
+  "version": "1.0.0",
+  "description": "Password Manager to suit your needs!",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"postcss tailwind.css -o tailwindoutput.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Windsmith/PasswordManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Windsmith/PasswordManager/issues"
+  },
+  "homepage": "https://github.com/Windsmith/PasswordManager#readme"
+}

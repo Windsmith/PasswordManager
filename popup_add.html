@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tailwindoutput.css">
+    </head>
+    <body class="min-h-60 max-h-60 w-96">
+        <div class="flex flex-row flex-wrap flex-1">
+            <a class="flex-auto text-center text-white object-left p-4 px-8 text-lg bg-red-400"> Add </a>
+            <a href="popup_retrieve.html" class="flex-auto text-center object-center p-4 text-lg border-b-2 rounded-md"> Retrieve </a>
+            <a href="popup_options.html" class="flex-auto text-center object-right p-4 text-lg border-b-2 rounded-md"> Options </a>
+        </div>
+
+        <form class="flex flex-col flex-wrap flex-1">
+            <div class="m-5">
+                <label for="username" class="text-lg">Enter Username</label>
+                <input type="text" id="username" class="text-lg text-center w-48 border-2 rounded float-right">
+            </div>
+
+            <div class="mx-5">
+                <label for="password" class="text-lg">Enter Password </label>
+                <input type="password" id="password" class="text-sm text-center w-48 border-2 rounded float-right">
+                <div class="float-right my-2 mx-10">
+                    <label for="showpass" class="text-sm">Show Password</label>
+                    <input type="checkbox" id="showpass">
+                </div>
+                <button type="button" id="generatepassword" class="text-sm p-2 mt-8 my-3 mx-24 border-2 rounded-sm shadow">Generate Password</button>
+            </div>
+
+            <div class="mx-24 my-3">
+                <label for="color" class="text-lg -mx-2">Select color:</label>
+                <input type="color" list="colors" id="color" class="px-2 float-right rounded">
+            </div>
+
+            <button type="submit" class="text-2xl text-white m-10 p-5 bg-red-400">Add to passwords</button>
+        </form>
+
+    </body>
+</html>
+<script src="password_add.js"></script>
