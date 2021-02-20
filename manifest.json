@@ -8,7 +8,7 @@
     "action": {
         "default_icon":{}, 
         "default_title": "Want your passwords? ;)",
-        "default_popup": "popup.html"
+        "default_popup": "popup_add.html"
     },
     "description": "An open source password manager that suites all your needs!",
     "icons": {}
